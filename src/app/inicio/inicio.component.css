@@ -1,0 +1,405 @@
+* {
+  background: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  overflow-x: auto;
+  min-width: 800px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 8px;
+  background-color: #fff;
+  height: 45px;
+  box-shadow: 3px 3px #05eeee10, -1em 0 0.4em rgba(7, 81, 110, 0.349);
+  display: flex;
+  /* Flexbox para alinear los elementos */
+  align-items: center;
+  /* Alineación vertical en el centro */
+  justify-content: space-between;
+  /* Distribuye el contenido a lo largo del header */
+}
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex; /* Convierte el contenedor en un contenedor flexible */
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.logo-link:hover{
+  background-color: #e1edff;
+}
+.header_logo {
+  width: 40px;
+  /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  /* Espacio entre el logo y el texto */
+  background: none;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.logotitle{
+  display: flex;
+  align-items: center;
+
+}
+.header_texxt {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  background: none;
+  padding-right: 10px;
+}
+
+.menuder {
+  display: flex;
+  align-items: center;
+}
+
+.menuli {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.menu_searsh {
+  padding: 5px;
+}
+
+.menuder {
+  float: right;
+  align-items: center;
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 10px;
+  vertical-align: middle;
+
+}
+
+.menuli {
+  display: inline-block;
+
+}
+
+.button_1 {
+
+  margin: 0 3px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #344563;
+  text-decoration: none;
+
+  padding: 10px;
+}
+
+.button_1:hover {
+  background-color: #E1EDFF;
+
+}
+
+/*
+.header_divpefil{
+width: 30px;
+height: 30px;
+
+}
+.header_pefil{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+
+}*/
+.menu_searsh {
+  border: solid 1px #DFE1E6;
+  height: 30px;
+  border-radius: 6px;
+  color: white;
+  vertical-align: middle;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: large;
+  width: 250px;
+  transition: width 100ms;
+
+
+
+}
+
+.menu_searsh:focus {
+  border-color: solid 5px #ff0000;
+  width: 400px;
+  transition: width 100ms;
+}
+
+.header_divpefil {
+  width: 2rem;
+  border-radius: 100%;
+  align-items: center;
+  display: inline;
+  vertical-align: middle;
+}
+
+.header_divpefil:hover {
+  box-shadow: 4px 4px #05eeee10, 0em 0 0.8em #344563;
+}
+
+.menuizq {
+  margin-top: 20px;
+  width: 95%;
+  border-radius: 25px;
+}
+
+.menuli_izq {
+  text-decoration: none;
+  display: grid;
+}
+
+.menuizqcont {
+  width: 15%;
+  height: 750px;
+  margin-top: 3px;
+  float: left;
+}
+
+.contenido {
+  margin-top: 3px;
+}
+
+.button_menuizq {
+  border-radius: 5px;
+  margin: 0 3px;
+  font-weight: bold;
+  border: none;
+  color: #344563;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;/*alinear*/
+}
+
+.button_menuizq:hover {
+  background-color: #e1edff;
+}
+
+/***************/
+/***************/
+nav {
+
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #323232;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: #333;
+  padding-left: 0px;
+  display: none;
+
+}
+
+nav ul li:hover>ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: auto;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul li ul li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul li ul li a:hover {
+  background-color: #555;
+}
+
+/***************/
+/***************/
+
+.contenido {
+  width: auto;
+}
+
+.titulotxt {
+  font-weight: bold;
+  color: #124B4D;
+  font-size: 24px;
+  font-family: sans-serif;
+  resize: none;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  height: auto;
+  width: auto;
+}
+
+.titulotxt:hover {
+  background-color: #0000000c;
+  transition: 300ms;
+}
+
+.Desclbl {
+  color: #124B4D;
+  font-family: sans-serif;
+  padding: 8px;
+
+}
+
+.desctxt {
+  font-size: 14px;
+}
+
+/* Para WebKit (Chrome, Safari, Edge) */
+textarea::-webkit-scrollbar {
+  width: 12px;
+  /* Ancho de la barra de desplazamiento */
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color de fondo del track (canal) */
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Color de la barra */
+  border-radius: 10px;
+  /* Bordes redondeados */
+  border: 2px solid #f1f1f1;
+  /* Borde para dar el efecto de separación */
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Color de la barra al pasar el mouse */
+}
+
+
+.menuli_izq img {
+  width: 20px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 20px;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  background: none;
+
+
+}
+
+
+.cardprincipal{
+
+  align-content: center;
+  border: none;
+  background-color: #0000001f;
+  border-radius: 5px;
+  width: 200px;
+  height: 230px;
+
+/*    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: grid;
+place-items: center;
+*/
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+.cardimg{
+  border-radius: 5px 5px 0 0 ;
+  width: 180px;
+/*    display: flex;
+justify-content: center;
+align-items: center;*/
+}
+
+.cardimgdiv{
+ /* background-color: rgb(114, 183, 206);*/
+  padding: 10px;
+  background: none;
+
+}
+
+.cardtext{
+/*  background-color: lightblue;*/
+  padding: 0 10px 0 10px;
+  background: none;
+}
+.cardtext h3{
+  background: none;
+  margin: 0px;
+  font-size: 20;
+  text-decoration: none;
+
+
+
+}
+.cardtext p{
+  background: none;
+  font-size: 14px;
+  margin: 0px;
+
+}
+.miniimagen{
+  border-radius: 50%;
+  width: 15px;
+  margin: 0 2PX 0 2PX;
+  background: none;
+}
+.idlinks{
+  display: flex;
+  justify-content: space-between;
+  background: none;
+
+}
+.hoverredondo:hover{
+  background: #00000033;
+}
+.hoverredondo{
+  border-radius: 50%;
+}
+.textdecorationnnone{
+  text-decoration: none;
+
+
+}
